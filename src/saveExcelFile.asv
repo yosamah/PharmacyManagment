@@ -1,0 +1,10 @@
+
+function saveExcelFile(table)
+    filePath=getFilePath;
+    if filePath~=0
+        xlswrite(filePath,table)
+        msgbox('Saved Successfully!');
+    else
+        msgbox('Error! Enter file name');
+    end
+end

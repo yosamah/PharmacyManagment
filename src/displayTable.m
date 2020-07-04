@@ -1,0 +1,30 @@
+%Pharmacy Management System, Yomna Osama Hussein AboBaker, ID:1190203
+%                            Email:yomna.osamma@gmail.com.
+%Function Name: displayTable.
+%Parameters (In): Number of the chosen table. 
+%Return (Out): No Output.
+%Description: The function is used is used to display a choseen table.
+function displayTable(dispTableChoice)
+global table1; global table2; global table3;
+if dispTableChoice==1
+    [row1,col1]=size(table1);
+    if row1~=0
+        dispTableGUI(table1);
+    else
+        msgbox('No Data To Display');
+    end
+elseif dispTableChoice==2
+    [row2,col2]=size(table2);
+    if row2~=0
+        dispTableGUI(table2);
+    else
+        msgbox('No Data To Display');
+    end
+elseif dispTableChoice==3
+    [row3,col3]=size(table3);
+    if row3~=0
+        dispTableGUI(table3);
+    else
+        msgbox('No Data To Display');
+    end
+end
