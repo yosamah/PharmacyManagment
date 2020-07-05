@@ -1,11 +1,18 @@
 # PharmacyManagment
 Pharmacy management system with a fancy GUI written in MATLAB.
+
 Open the src file.
+
 Open pharmacyManagement.m file.
+
 A fancy GUI with multiple options will appear.
+
 If you press "Add Row" Option by default it will add a new row in table 1.
+
 You can change the table choice from the pop-up menu.
+
 If you entered an empty box, error message will appear.
+
 If you press "Load Table" Option by default it will load in table 1.
 You can change the table choice from the pop-up menu.
 If you entered an empty box, error message will appear.
