@@ -27,8 +27,8 @@ Pharmacy management system with a fancy GUI written in MATLAB.
 
 13-You can compute three new tables by choosing the last three options.
 
-14-You can save them by choosing  "Save" button.
+14-You can save them by choosing  "Save Table" button.
 
-15-You can clear all the tables by pressing on Clear Tables button.
+15-You can clear all the tables by pressing on "Clear Tables" button.
 
 16-Finally, you can exit the program by pressing on "Exit".
